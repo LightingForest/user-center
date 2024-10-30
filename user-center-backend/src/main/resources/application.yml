@@ -17,6 +17,7 @@ server:
     context-path: /api
 mybatis-plus:
   configuration:
+    # 驼峰命名
     map-underscore-to-camel-case: false
   global-config:
     db-config:
